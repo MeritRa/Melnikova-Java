@@ -10,9 +10,9 @@ public class Task_3 {
             System.out.println("Введите " + i + " число: ");
             num[i] = in.nextInt();
         }
-        for (int i = 0; i < num.length; i++) {
-            if (num[i] % 3 == 0) {
-                System.out.println(num[i]);
+        for (int j : num) {
+            if (j % 3 == 0) {
+                System.out.println(j);
             }
         }
     }
