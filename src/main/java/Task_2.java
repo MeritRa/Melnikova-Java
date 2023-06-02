@@ -1,3 +1,4 @@
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Task_2 {
@@ -5,7 +6,7 @@ public class Task_2 {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите имя: ");
         String name = in.nextLine();
-        if (name == "Вячеслав") {
+        if (Objects.equals(name, "Вячеслав")) {
             System.out.println("Привет, Вячеслав");
         } else {
             System.out.println("Нет такого имени");
